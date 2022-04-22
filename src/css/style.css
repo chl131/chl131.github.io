@@ -1052,12 +1052,12 @@ a:hover {
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
-@media (min-width: 767px) {
-  .card-blog {
-    background-color: #2e2e2e;
-    margin-bottom: 3rem;
-  }
+
+.card-blog {
+  background-color: #2e2e2e;
+  margin-bottom: 3rem;
 }
+
 .card-blog .card-body {
   background-color: #2e2e2e;
   position: relative;
