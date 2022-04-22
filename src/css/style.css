@@ -1463,3 +1463,17 @@ footer .credits a {
     transform: rotate(360deg);
   }
 }
+
+/*--------------------------------------------------------------
+# Blog-home
+--------------------------------------------------------------*/
+.blog-home-box {
+  margin-bottom: 3rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #2e2e2e;
+}
+
+.blog-home-content {
+  padding: 2rem 3% 1rem 4%;
+}
