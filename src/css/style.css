@@ -194,7 +194,7 @@ a:hover {
 
 .line-mid {
   width: 100px;
-  height: 3px;
+  height: 4px;
   background-color: #c47535;
   margin: 0 auto;
   bottom: -12px;
@@ -1344,7 +1344,7 @@ a:hover {
 # Footer
 --------------------------------------------------------------*/
 footer {
-  text-align: center;
+  text-align: left;
   color: #fff;
   padding: 25px 0;
   background: #2e2e2e;
