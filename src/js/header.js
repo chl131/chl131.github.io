@@ -9,17 +9,17 @@ document.write(`
 
         <nav id="navbar" class="navbar">
         <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto " href="#work">Projects</a></li>
-            <li><a class="nav-link scrollto " href="#Latest">Latest</a></li>
-            <li><a class="nav-link scrollto" href="#coda">Coda</a></li>
-            <li class="dropdown"><a href="blogs/blog-home.html"><span>Blog</span> <i class="bi bi-chevron-down"></i></a>
+            <li><a class="nav-link scrollto active" href="/index.html#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="/index.html#about">About</a></li>
+            <li><a class="nav-link scrollto " href="/index.html#work">Projects</a></li>
+            <li><a class="nav-link scrollto " href="/index.html#Latest">Latest</a></li>
+            <li><a class="nav-link scrollto" href="/index.html#coda">Coda</a></li>
+            <li class="dropdown"><a href="/blogs/blog-home.html"><span>Blog</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-                <li><a href="blogs/blog-home.html">Audiophile</a></li>
-                <li><a href="blogs/blog-home.html">Melophile</a></li>
-                <li><a href="blogs/blog-home.html">Gourmet</a></li>
-                <li><a href="blogs/blog-home.html">Serendipity</a></li>
+                <li><a href="/blogs/blog-home.html">Audiophile</a></li>
+                <li><a href="/blogs/blog-home.html">Melophile</a></li>
+                <li><a href="/blogs/blog-home.html">Gourmet</a></li>
+                <li><a href="/blogs/blog-home.html">Serendipity</a></li>
             </ul>
             </li>
         </ul>
