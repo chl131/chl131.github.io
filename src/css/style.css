@@ -1,6 +1,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.C {
+  color: #c47535;
+}
+
 body {
   font-family: "Open Sans";
   background-color: #222222;
@@ -697,29 +701,30 @@ a:hover {
   position: absolute;
 }
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
   left: 0px;
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
 }
 .hero .hero-title {
   font-family: 'Roboto Mono', monospace;
   color: #fff;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 @media (min-width: 768px) {
   .hero .hero-title {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 }
 .hero .hero-subtitle {
   font-family: 'Roboto Mono', monospace;
-  font-size: 1.5rem;
+  color: #fff;
+  font-size: 3rem;
   font-weight: 600;
 }
 @media (min-width: 768px) {

@@ -45,6 +45,11 @@ class TextScramble {
       }
       this.el.innerHTML = output
       if (complete === this.queue.length) {
+        if (this.el.innerHTML == "ALPHA") {
+          this.el.innerHTML = "<span class=\"C\">ALPHA</span>"
+        } else {
+          this.el.innerHTML = "<span class=\"C\">A</span> <span class=\"C\">L</span>ittle <span class=\"C\">P</span>iece of <span class=\"C\">H</span>eaven for <span class=\"C\">A</span>udiophile"
+        }
         this.resolve()
       } else {
         this.frameRequest = requestAnimationFrame(this.update)
@@ -59,9 +64,10 @@ class TextScramble {
   // ——————————————————————————————————————————————————
   // Example
   // ——————————————————————————————————————————————————
-  
+  // "Software Engineer", "Programmer", "Lifelong Learner", "Melophile", "Audiophile", "Gourmet Hunter"
+
   const phrases = [
-    "Software Engineer", "Programmer", "Lifelong Learner", "Melophile", "Audiophile", "Gourmet Hunter"
+    "ALPHA", "A Little Piece of Heaven for Audiophile"
   ]
   
   const el = document.querySelector('.intro-text')
@@ -70,7 +76,7 @@ class TextScramble {
   let counter = 0
   const next = () => {
     fx.setText(phrases[counter]).then(() => {
-      setTimeout(next, 1500)
+      setTimeout(next, 3000)
     })
     counter = (counter + 1) % phrases.length
   }
