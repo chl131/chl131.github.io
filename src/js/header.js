@@ -5,7 +5,7 @@ document.write(`
 
         <!-- <h1 class="logo"><a href="/index.html"><span class="orange">A</span> <span class="orange">L</span>ittle <span class="orange">P</span>iece of <span class="orange">H</span>eaven for <span class="orange">A</span>udiophile</a></h1> -->
         <!-- Uncomment below if using image logo -->
-        <a href="index.html" class="logo"><img src="/src/img/favicon.png" alt="" class="img-fluid"></a>
+        <a href="/index.html" class="logo"><img src="/src/img/favicon.png" alt="" class="img-fluid"></a>
 
         <nav id="navbar" class="navbar">
         <ul>
