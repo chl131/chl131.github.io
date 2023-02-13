@@ -711,7 +711,7 @@ a:hover {
   opacity: 1;
 }
 .hero .hero-title {
-  font-family: 'Roboto Mono', monospace;
+  /*font-family: 'Roboto Mono', monospace;*/
   color: #fff;
   font-weight: 600;
   font-size: 3.5rem;
