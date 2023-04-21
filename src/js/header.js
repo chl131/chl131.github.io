@@ -9,11 +9,9 @@ document.write(`
 
         <nav id="navbar" class="navbar">
         <ul>
-            <li><a class="nav-link scrollto active" href="/index.html#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="/index.html#about">About</a></li>
-            <li><a class="nav-link scrollto " href="/index.html#work">Projects</a></li>
-            <li><a class="nav-link scrollto " href="/index.html#Latest">Latest</a></li>
-            <li><a class="nav-link scrollto" href="/index.html#coda">Coda</a></li>
+            <li><a class="nav-link scrollto" href="/aboutme.html">About</a></li>
+            <li><a class="nav-link scrollto active" href="#capo">Da Capo</a></li>
+            <li><a class="nav-link scrollto" href="#coda">Coda</a></li>
             <li class="dropdown"><a href="/blogs/blog-home.html"><span>Blog</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
                 <li><a href="/blogs/blog-home.html">Audiophile</a></li>
